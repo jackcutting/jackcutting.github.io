@@ -1,22 +1,101 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Jack Cutting</title>
+	<title>jackCutting | Software Engineer</title>
+	<script src="https://use.fontawesome.com/f9ece32a33.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro|Ubuntu:400,700" rel="stylesheet">
 	<style type="text/css">
+		html {
+			box-sizing: border-box;
+		}
+		*, *:before, *:after {
+			box-sizing: inherit;
+		}
 		body {
-			font: 400 14px/20px Arial, sans-serif;
-			color: #202020;
-			background: #f4f4f4;
-			padding: 0;
 			margin: 0;
+			padding: 0;
+			font-family: 'Source Serif Pro', serif;
+			color: #444;
+		}
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-weight: 400;
+			font-family: 'Ubuntu', sans-serif;
 		}
 		h1 {
-			text-align: center;
-			padding-top: 200px;
+			font-size: 70px;
+			margin: 0 0 40px 0;
+		}
+		a {
+			color: inherit;
+		}
+		.wrapper {
+			position: fixed;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #d7fbff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			background: #d7fbff;
+			background: -moz-linear-gradient(-45deg, #d8e7ff 0%, #d7fbff 50%, #d8fff4 100%);
+			background: -webkit-linear-gradient(-45deg, #d8e7ff 0%, #d7fbff 50%, #d8fff4 100%);
+			background: linear-gradient(135deg, #d8e7ff 0%, #d7fbff 50%, #d8fff4 100%);
+		}
+		section {
+			order: 1;
+			flex-grow: 1;
+			text-align: right;
+		}
+		main {
+		}
+		p {
+			font-size: 20px;
+			margin: 0 0 5px 0;
+		}
+		aside {
+			order: 2;
+			padding: 0 100px;
+		}
+		ul {
 			margin: 0;
+			padding: 0;
+			list-style: none;
+			font-size: 60px;
+		}
+		ul li a {
+			/*color: #c8d6fe;*/
+			color: #d8e7ff;
 		}
 	</style>
 </head>
 <body>
-	<h1>Website Coming Soon...</h1>
+	<div class="wrapper">
+		<section>
+			<header>
+				<h1>jack<strong>Cutting</strong></h1>
+			</header>
+			<main>
+				<p>Software Engineer currently working at <a href="https://twitter.com/Workmatrix?utm_source=jackcutting.co.uk" target="_blank" title="Workmatrix on Twitter">@Workmatrix</a> in London.</p>
+				<p>Experienced full stack engineer using PHP, React, React Native right now.</p>
+			</main>
+		</section>
+		<aside>
+			<ul>
+				<li><a href="https://github.com/jackcutting" target="_blank" title=""><i class="fa fa-github"></i></a></li>
+				<li><a href="https://twitter.com/jackcutting" target="_blank" title=""><i class="fa fa-twitter"></i></a></li>
+				<li><a href="mailto:me@jackcutting.co.uk" target="_blank" title=""><i class="fa fa-envelope"></i></a></li>
+			</ul>
+		</aside>
+	</div>
 </body>
 </html>
